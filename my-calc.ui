@@ -13,6 +13,15 @@
   <property name="windowTitle">
    <string>my-calc</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">Qwidget {
+	color: white;
+	background-color: ;
+	font-family: Rubik;
+	font-size: 16pt;
+	font-weight: 600;
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  </string>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QVBoxLayout" name="verticalLayout">
     <item>
