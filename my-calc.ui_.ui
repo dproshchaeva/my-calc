@@ -6,63 +6,34 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>300</width>
-    <height>500</height>
+    <width>344</width>
+    <height>480</height>
    </rect>
-  </property>
-  <property name="minimumSize">
-   <size>
-    <width>300</width>
-    <height>500</height>
-   </size>
   </property>
   <property name="windowTitle">
    <string>my-calc</string>
   </property>
-  <property name="windowIcon">
-   <iconset>
-    <normaloff>../../../Downloads/calculate_24dp_RGB(78, 68, 72)_FILL0_wght400_GRAD0_opsz24.png</normaloff>../../../Downloads/calculate_24dp_RGB(78, 68, 72)_FILL0_wght400_GRAD0_opsz24.png</iconset>
-  </property>
   <property name="styleSheet">
-   <string notr="true">QWidget {
-	color: rgb(78, 68, 72);
-	background-color: rgb(255, 225, 245);
+   <string notr="true">Qwidget {
+	color: white;
+	background-color: ;
 	font-family: Rubik;
 	font-size: 16pt;
 	font-weight: 600;
-}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
-
-QPushButton {
-	background_color: transparent;
-	border: none;
-}
-
-QPushButton:hover {
-    background-color: rgb(222, 191, 207)
-}
-
-QPushButton: pressed {
-    background-color: rgb(188, 145, 169)
-}</string>
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  </string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QVBoxLayout" name="verticalLayout">
     <item>
      <widget class="QLabel" name="lbl_temp">
-      <property name="enabled">
-       <bool>true</bool>
-      </property>
       <property name="sizePolicy">
        <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
         <horstretch>0</horstretch>
         <verstretch>0</verstretch>
        </sizepolicy>
       </property>
-      <property name="styleSheet">
-       <string notr="true">color: rgb(187, 156, 166)</string>
-      </property>
       <property name="text">
-       <string/>
+       <string>228.322 + 69.420 =</string>
       </property>
       <property name="alignment">
        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -76,10 +47,6 @@ QPushButton: pressed {
         <horstretch>0</horstretch>
         <verstretch>0</verstretch>
        </sizepolicy>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">font-size: 40pt;
-border: none;</string>
       </property>
       <property name="text">
        <string>0</string>
@@ -214,9 +181,6 @@ border: none;</string>
           <verstretch>0</verstretch>
          </sizepolicy>
         </property>
-        <property name="cursor">
-         <cursorShape>PointingHandCursor</cursorShape>
-        </property>
         <property name="text">
          <string>C</string>
         </property>
@@ -311,17 +275,7 @@ border: none;</string>
          </sizepolicy>
         </property>
         <property name="text">
-         <string/>
-        </property>
-        <property name="icon">
-         <iconset>
-          <normaloff>../my-calc/backspace_24dp_RGB(78, 68, 72)_FILL0_wght400_GRAD0_opsz24.png</normaloff>../my-calc/backspace_24dp_RGB(78, 68, 72)_FILL0_wght400_GRAD0_opsz24.png</iconset>
-        </property>
-        <property name="iconSize">
-         <size>
-          <width>24</width>
-          <height>24</height>
-         </size>
+         <string>&lt;-</string>
         </property>
         <property name="shortcut">
          <string>Left</string>
@@ -429,8 +383,6 @@ border: none;</string>
    </layout>
   </widget>
  </widget>
- <resources>
-  <include location="../my-calc/files.qrc"/>
- </resources>
+ <resources/>
  <connections/>
 </ui>
